@@ -1,18 +1,18 @@
 @font-face {
 	font-family: neu;
-	src: url(./NeueHaasDisplayMediu.ttf);
+	src: url(../fonts/NeueHaasDisplayMediu.ttf);
 }
 
 @font-face {
 	font-family: neu;
 	font-weight: 100;
-	src: url(./NeueHaasDisplayLight.ttf);
+	src: url(../fonts/NeueHaasDisplayLight.ttf);
 }
 
 @font-face {
 	font-family: neu;
 	font-weight: 200;
-	src: url(./NeueHaasDisplayRoman.ttf);
+	src: url(../fonts/NeueHaasDisplayRoman.ttf);
 }
 * {
 	margin: 0;
@@ -323,6 +323,7 @@ video {
 	z-index: 99;
 	left: 50%;
 	top: 25%;
+	/* background-color: red; */
 	display: none;
 	background-size: cover;
 	background-position: center;
