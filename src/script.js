@@ -4,7 +4,8 @@ const scroll = new LocomotiveScroll({
 });
 
 
-let container = document.querySelector('#box-container');
+function Animation() {
+       let container = document.querySelector('#box-container');
 
 let image = document.querySelector('#fixed-image');
 
@@ -25,3 +26,16 @@ boxes.forEach((e) => {
         image.style.backgroundImage = `url(${img})`;  
     })
 })
+
+}
+function swiperAnimation() {
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: "auto",
+      centeredSlides: true,
+      spaceBetween: 100,
+   
+    });
+}
+
+swiperAnimation();
+Animation();
