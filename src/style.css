@@ -328,3 +328,65 @@ video {
 	background-size: cover;
 	background-position: center;
 }
+#page4 {
+	min-height: 70vh;
+	width: 100%;
+	background-color: #efeae3;
+	padding: 10vw 2vw;
+}
+#page-5 {
+	height: 100vh;
+	width: 100%;
+}
+#footer {
+	position: fixed;
+	z-index: 9;
+	height: 100vh;
+	width: 100%;
+	bottom: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	background-color: black;
+	color: white;
+	padding: 0 2vw;
+}
+#footer-up {
+	height: 10vh;
+	background-color: red;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	padding: 3vw 2vw;
+}
+#footer-up .link h3 {
+	font-size: 2vw;
+	color: white;
+}
+#footer-up #input {
+	display: flex;
+	flex-direction: column;
+	width: 40%;
+	color: white;
+}
+#footer-up #input input {
+	width: 100%;
+	height: 40px;
+	border: none;
+	border-bottom: 2px solid #dadada;
+	background-color: transparent;
+	color: white;
+	font-size: 1.2vw;
+	margin-top: 1vw;
+}
+#footer h1 {
+	font-size: 23vw;
+}
+#footer-up {
+	height: 20vh;
+	width: 100%;
+}
+#footer-down {
+	height: 10vh;
+	border-top: 1px solid #dadada;
+}
